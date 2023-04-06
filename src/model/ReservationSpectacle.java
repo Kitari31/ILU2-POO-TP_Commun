@@ -6,8 +6,6 @@ public class ReservationSpectacle extends Reservation{
 	
 	public ReservationSpectacle(int jour, int mois) {
 		super(jour, mois);
-		this.numZone = numZone;
-		this.numChaise = numChaise;
 	}
 
 	@Override

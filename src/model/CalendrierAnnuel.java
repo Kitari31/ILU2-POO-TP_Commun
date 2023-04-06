@@ -6,7 +6,7 @@ public class CalendrierAnnuel {
 	public CalendrierAnnuel() {
 		this.mois = new Mois[12];
 		mois[0] = new Mois("janvier",31);
-		mois[1] = new Mois("février",28);
+		mois[1] = new Mois("fï¿½vrier",28);
 		mois[2] = new Mois("mars",31);
 		mois[3] = new Mois("avril",30);
 		mois[4] = new Mois("mai",31);

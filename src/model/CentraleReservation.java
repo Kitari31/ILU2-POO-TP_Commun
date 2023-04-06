@@ -1,14 +1,11 @@
 package model;
 
-import java.util.Iterator;
-
 public class CentraleReservation<E extends EntiteReservable <F>,F extends Formulaire> {
 	E[] entiteReserve;
 	int nbrEntite= 0;
 	
 	public CentraleReservation(E[] entiteReserve) {
 		this.entiteReserve = entiteReserve;
-		this.nbrEntite = nbrEntite;
 	}
 	
 	public int ajouterEntite(E entite) {

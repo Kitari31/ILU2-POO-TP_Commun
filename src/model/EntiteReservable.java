@@ -4,7 +4,7 @@ public abstract class EntiteReservable<F extends Formulaire> {
 	private CalendrierAnnuel calendrierPersonnel;
 	private int numero;
 	
-	public EntiteReservable(int numero, CalendrierAnnuel calendrierPersonnel) {
+	public EntiteReservable(int numero, CalendrierAnnuel calendrierPersonnel, F formulaire) {
 		this.numero = numero;
 		this.calendrierPersonnel = calendrierPersonnel;
 	}
