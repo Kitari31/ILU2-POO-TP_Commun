@@ -1,8 +1,9 @@
 package model;
 
-public abstract class Formulaire {
-	private int jour;
-	private int mois;
+public interface Formulaire {
+
+	public int getJour();
+	public int getMois();
 	
 
 }
